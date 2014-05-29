@@ -5,9 +5,10 @@ A drop in replacement for the [AdaFruit NeoPixel library][adafruit_neopixel_libr
 
 The benifits of this appraoch are:
 
-1) Easier to read & understand
-2) Easier to change
-3) Leaves interrupts on so stuff like [SoftSerial][SoftSerial] and [Manchester][manchester] will work
+1. Easier to read & understand
+2. Easier to change
+3. Generous timing helps reduce glitching on very long strings
+4. Leaves interrupts on so stuff like [SoftSerial][SoftSerial] and [Manchester][manchester] will work
 
 Note that this code has only been tested on WS2812 Neopixels like the [Adafruit 60 LED/meter Digital LED strip][strip], the [Adafruit FLORA RGB Smart Pixel][flora], the [Adafruit Breadboard-friendly RGB Smart Pixel][pixel], and the [Adafruit NeoPixel Stick][stick], along with lots that you can get on eBay and Alibaba.
 
